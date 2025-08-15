@@ -1,0 +1,1 @@
+Account page with registration. HTML + CSS + JS.
