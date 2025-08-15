@@ -1,5 +1,5 @@
 window.onload = function () {
-
+console.log("hello git");
     //устанавливаем правила ввода в текстовые поля
     let fullName = document.getElementsByName('fullName')[0];
     fullName.onkeydown = function (e) {
