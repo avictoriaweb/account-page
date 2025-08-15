@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Account</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="content-block">
+            <div class="content-block__content">
+                <h1 class="content-block__title" id="blockTitle">Get your free account</h1>
+                <div class="content-block__text">Try homeWorks BUSINESS free for 15 days. Downgrade to Basic (Free
+                    Forever)
+                    anytime.
+                </div>
+                <form class="account-form" action="">
+                    <label class="option-block">
+                        <span class="option-title">Full Name</span>
+                        <input class="option-textbox" type="text" name="fullName" value="Antony Swarowski">
+                    </label>
+                    <label>
+                        <span class="option-title">Your username</span>
+                        <input class="option-textbox" type="text" name="userName">
+                    </label>
+                    <label>
+                        <span class="option-title">E-mail</span>
+                        <input class="option-textbox" type="email" name="email">
+                    </label>
+                    <label>
+                        <span class="option-title">Password</span>
+                        <input class="option-textbox" type="password" name="password">
+                    </label>
+                    <label>
+                        <span class="option-title">Repeat Password</span>
+                        <input class="option-textbox" type="password" name="password2">
+                    </label>
+                    <label class="option-checkbox">
+                        <input type="checkbox" name="agree" id="acceptTerms">
+                        <span class="option-title-cbx">Agree to our Terms of Service and Privacy Statement</span>
+                    </label>
+                    <button type="submit" class="btn-red btn-signUp" id="btnSignUp">Sign Up</button>
+                    <button type="button" class="btn-link" id="btnLogin">Already have an account?</button>
+                </form>
+
+            </div>
+        </div>
+        <div class="image-block">
+            <img src="assets/images/image.png" class="image-block__img" alt="Rocket">
+        </div>
+        <div class="logo-block">
+            <img src="assets/images/logo.png" alt="Logo">
+        </div>
+        <div class="popup-block" id="popup-block">
+            <div class="popup-content">
+                <div class="popup-block__text">
+                    На вашу почту выслана ссылка, перейдите по ней, чтобы завершить регистрацию
+                </div>
+                <button type="button" class="btn-red btn-ok" id="btnOK">OK</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

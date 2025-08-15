@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url('../assets/fonts/Nunito-Regular.ttf');
+}
+
+@font-face {
+    font-family: NunitoBold;
+    src: url('../assets/fonts/Nunito-Bold.ttf');
+}
+
+body {
+    font-family: NunitoBold, sans-serif;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+
+.content-block {
+    background-color: #ffffff;
+    width: 50%;
+}
+
+.content-block__content {
+    width: 452px;
+    float: right;
+    margin-right: 85px;
+    margin-top: 194px;
+}
+
+.content-block__title {
+    font-size: 36px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.content-block__text {
+    font-size: 22px;
+    line-height: 27px;
+    color: #636363;
+    margin-bottom: 74px;
+}
+
+.account-form {
+    width: 100%;
+}
+
+.option-title {
+    display: block;
+    font-size: 16px;
+    color: #C6C6C4;
+    margin-bottom: 10px;
+}
+
+.option-textbox {
+    font-size: 20px;
+    color: #323232;
+    border: 0;
+    border-bottom: solid 1px #C6C6C4;
+    width: 452px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 27px;
+    outline: none;
+}
+
+.option-checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.option-title-cbx {
+    font-size: 16px;
+    color: #636363;
+    margin-left: 10px;
+
+}
+
+.btn-red {
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #DD3142;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    padding: 25px 68px;
+    display: block;
+    cursor: pointer;
+}
+
+.btn-signUp {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 49px;
+}
+
+.btn-ok {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.btn-link {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #636363;
+    background: transparent;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 191px;
+    cursor: pointer;
+}
+
+.image-block {
+    background-color: #F8F8FA;
+    width: 50%;
+}
+
+.image-block__img {
+    width: 543px;
+    margin-top: 254px;
+    margin-left: 11px;
+}
+
+.logo-block {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 27px;
+    text-align: center;
+}
+
+.popup-block {
+    position: fixed;
+    background: #00000078;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    background-color: white;
+    display: block;
+    padding: 40px 20px;
+    border: solid 4px #C6C6C4;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.popup-block__text {
+    font-size: 18px;
+    line-height: 27px;
+}
