@@ -124,3 +124,4 @@ console.log("changing js file");
         alert(`Добро пожаловать, ${userName.value}!`);
     }
 }
+console.log("message 1");
