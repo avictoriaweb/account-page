@@ -24,7 +24,7 @@ body {
 }
 
 .content-block {
-    background-color: #ffffff;
+    background-color: #fe0404;
     width: 50%;
 }
 
@@ -37,7 +37,7 @@ body {
 
 .content-block__title {
     font-size: 36px;
-    color: #000000;
+    color: #085c1a;
     margin-bottom: 20px;
 }
 
