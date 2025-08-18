@@ -130,7 +130,7 @@ body {
 
 .image-block__img {
     width: 543px;
-    margin-top: 254px;
+    margin-top: 0;
     margin-left: 11px;
 }
 
